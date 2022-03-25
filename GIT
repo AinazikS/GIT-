@@ -20,7 +20,7 @@ git merge (name of the branch)          //to join each other (each branch)
 _________________________________________________________________________________________
 git remote add origin https://github.com/AinazikS/Online-Recording-System.git
 git push -u origin
-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
+
 _________________________________________________________________________________________
 
 git branch -m master main
