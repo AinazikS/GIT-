@@ -5,6 +5,8 @@ docker build .
 docker run -it (name or id)
 docker pull (id)
 docker ps -a
-docker conatiner prune
+docker contаiner prune
 docker rm (id)
 sudo chmod 666 /var/run/docker.sock
+
+
