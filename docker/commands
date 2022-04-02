@@ -1,0 +1,10 @@
+docker images
+docker version
+docker --help
+docker build .
+docker run -it (name or id)
+docker pull (id)
+docker ps -a
+docker conatiner prune
+docker rm (id)
+sudo chmod 666 /var/run/docker.sock
