@@ -1,6 +1,7 @@
 https://docs.docker.com/engine/install/ubuntu/
-
-
+https://hub.docker.com/u/apaskal       //  REACT/JAVASCRIPT
+https://hub.docker.com/r/apaskal/javascript-neovim-alpine
+__________________________________________________________________________________________________________________________________________________
  sudo apt-get update
  
  sudo apt-get install \
@@ -18,5 +19,4 @@ https://docs.docker.com/engine/install/ubuntu/
    sudo apt-get update
 
  sudo apt-get install docker-ce docker-ce-cli containerd.io
- 
- 
+__________________________________________________________________________________________________________________________________________________
