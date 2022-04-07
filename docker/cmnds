@@ -6,8 +6,9 @@ docker run -it (name or id)        -it= interactive
 docker pull (id)
 docker ps -a                       -a = all
 docker contаiner prune
-docker rm (id)
+docker rmi (id)
 sudo chmod 666 /var/run/docker.sock
 docker stop (id)
 docker start (id)
 docker run -p 8000:8000 (id)       -p = port
+docker rmi -f $(docker images -q)         to delete all images  -f = force
