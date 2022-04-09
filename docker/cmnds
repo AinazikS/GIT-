@@ -12,3 +12,4 @@ docker stop (id)
 docker start (id)
 docker run -p 8000:8000 (id)       -p = port
 docker rmi -f $(docker images -q)         to delete all images  -f = force
+docker kill $(docker ps -q)
