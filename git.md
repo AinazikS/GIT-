@@ -30,35 +30,35 @@ git --help
 git branch
 ```
 
- //to **create** branch
+>to **create** branch
  
 ```
 git branch (name og the branch)        
 ```
 
-//to **delete** branch
+>to **delete** branch
 
 ```
 git branch -D (name og the branch) 
 ```
-//to **rename** branch
+>to **rename** branch
 ```
 git branch -M (name og the branch)      //to rename branch
 ```
- //**switch between** branches
+>**switch between** branches
 ```
 git checkout (name og the branch)      
 ```
- //switch between branches and the same time switch to that branch straightaway
+>switch between branches and the same time switch to that branch straightaway
 ```
 git checkout -b (name og the branch)   
 ```
- //to **join** each other (each branch)
+>to **join** each other (each branch)
 ```
 git merge (name of the branch)         
 ```
 
-//after you can *delete  extra branches*
+>after you can *delete  extra branches*
 ___
 
 ```
