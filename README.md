@@ -38,8 +38,8 @@ ___
  ---
  `<p>Hey</p>`
  
- ![Markdown Logo]
- (https://markdown-here.com/img/icon256.png)
+<!--  ![Markdown Logo]
+ (https://markdown-here.com/img/icon256.png) -->
 
 ```python
 print('Hello MD file')
@@ -61,3 +61,4 @@ ___
 * [X] Task 1
 * [X] Task 2
 * [ ] Task 3
+---
