@@ -58,6 +58,7 @@ docker rmi -f $(docker images -q)
 ```
 docker kill $(docker ps -q)
 ```
+___
 ```
 docker exec -it 4a23c4bdaae3 python3 manage.py createsuperuser
 ```
