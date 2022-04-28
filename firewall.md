@@ -15,3 +15,13 @@ ____
 ```
 usermod -aG sudo user
 ```
+___
+How to remove ssl in centos and cyberpanel
+
+connect to your SSH.
+Type command below (don't forget to replace your domain name)
+```
+rm -rf /etc/letsencrypt/live/example.com
+```
+Hit enter.
+___
