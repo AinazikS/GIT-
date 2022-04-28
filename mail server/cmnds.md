@@ -15,3 +15,8 @@ sudo apt install ufw
 [Youtube](https://www.youtube.com/watch?v=8G93NVWkXZk, 'Youtube link')
 
 Please choose to use default admin password 1234567, randomly generate one (recommended) or specify the admin password?
+## Removing Cyberpanel
+
+Delete usr/local/requiirements.txt
+       usr/local/cyberpanel
+
