@@ -10,3 +10,8 @@ sudo ufw delete 4
 ```
 
 [Site](https://linuxize.com/post/how-to-list-and-delete-ufw-firewall-rules/)
+____
+> Give sudo permissions to user
+```
+usermod -aG sudo user
+```
