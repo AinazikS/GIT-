@@ -49,3 +49,6 @@ sudo netstat -tulpn | grep LISTEN
   ```
   sudo lsof -i:22 # see a specific port such as 22
   ```
+  ```
+  nmap -sT -O 95.179.222.104 
+  ```
