@@ -54,4 +54,7 @@ sudo netstat -tulpn | grep LISTEN
   ```
 ```
   ss -lntu
-  ```
+```
+```
+  sudo ufw reset
+```
