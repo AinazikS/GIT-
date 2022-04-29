@@ -22,14 +22,6 @@ sudo apt install net-tools
 ```
 sudo netstat -tulpn
 ```
-Get the PID of the process that uses port 80 or 443. And send the kill command changing the <PID> value:
-```
-sudo kill -2 <PID>
-```
-Aternatively you can execute the following:
-```
-sudo fuser -k 80/tcp
-sudo fuser -k 443/tcp
 ```
 ### Now that port 80 or 443 is clear, you can start Nginx by running the following:
 ```
