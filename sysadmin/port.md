@@ -52,3 +52,6 @@ sudo netstat -tulpn | grep LISTEN
   ```
   nmap -sT -O 95.179.222.104 
   ```
+```
+  ss -lntu
+  ```
