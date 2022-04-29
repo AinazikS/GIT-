@@ -25,6 +25,7 @@ sudo netstat -tulpn
 ```
 ### Now that port 80 or 443 is clear, you can start Nginx by running the following:
 ```
+```
 sudo service nginx restart
 ```
 ```
