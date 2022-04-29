@@ -38,3 +38,14 @@ sudo service nginx restart
 ```
 sudo apt remove httpd httpd-devel httpd-manual httpd-tools mod_auth_kerb mod_auth_mysql mod_auth_pgsql mod_authz_ldap mod_dav_svn mod_dnssd mod_nss mod_perl mod_revocator mod_ssl mod_wsgi
 ```
+___
+```
+sudo lsof -i -P -n | grep LISTEN
+```
+```
+sudo netstat -tulpn | grep LISTEN
+
+```  
+  ```
+  sudo lsof -i:22 # see a specific port such as 22
+  ```
