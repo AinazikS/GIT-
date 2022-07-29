@@ -1,7 +1,7 @@
 # Git
 > Status
 ```
-modified(changes) -> staged(git add .) -> commited(git commit -m "Message")
+untracked(не отслеживаемый) -> modified(changes) -> staged(git add .) -> commited(git commit -m "Message")
 ```
 ```
 git init
