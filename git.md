@@ -14,6 +14,10 @@ git add .
 ```
 git restore main.asm
 ```
+> diff -diffences | it shows which differences were done
+```
+git diff
+```
 ```
 git rm --cached
 ```
