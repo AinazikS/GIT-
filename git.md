@@ -120,6 +120,9 @@ ___
 ```
 git pull origin main
 ```
+```
+git pull
+```
 ---
 ### Actions after renaming *master* branch
 ```
