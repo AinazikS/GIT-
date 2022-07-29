@@ -91,8 +91,11 @@ git checkout -b (name of the branch)
 ```
 git merge (name of the branch)         
 ```
-
 >*after you can delete  extra branches*
+___
+> to switch between commits
+```
+git checkout __hash___
 ___
 ## Push
 ```
