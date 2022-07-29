@@ -18,6 +18,10 @@ git restore main.asm
 ```
 git diff
 ```
+> but if you have already git added the file, the git diff command won`t work, instead you should run
+```
+git diff --staged
+```
 ```
 git rm --cached
 ```
