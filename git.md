@@ -11,6 +11,10 @@ git init
 ```
 git restore main.asm
 ```
+or
+```
+git checkout _name_of_the_file
+```
 > diff -diffences | it shows which differences were done
 ```
 git diff
