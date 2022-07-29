@@ -87,7 +87,7 @@ git checkout (name of the branch)
 ```
 git checkout -b (name of the branch)   
 ```
->*to **join** each other (each branch)*
+>*to **join** each other (each branch)*, do it in __main__ branch and use the name of the other one when merging 
 ```
 git merge (name of the branch)         
 ```
