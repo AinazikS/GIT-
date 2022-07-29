@@ -100,6 +100,11 @@ ___
 > to switch between commits
 ```
 git checkout __hash___
+```
+> to switch between branches
+```
+git reset --hard _hash_
+```
 ___
 ## Push
 ```
