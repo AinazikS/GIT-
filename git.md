@@ -77,7 +77,7 @@ git branch -D (name of the branch)
 ```
 >*to **rename** branch*
 ```
-git branch -M (name of the branch)    
+git branch -M bugfix  
 ```
 >**switch between** *branches*
 ```
