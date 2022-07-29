@@ -1,5 +1,8 @@
 # Git
-
+> Status
+```
+modified(changes) -> staged(git add .) -> commited(git commit -m "Message")
+```
 ```
 git init
 ```
