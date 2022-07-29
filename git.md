@@ -107,3 +107,7 @@ Date:   Thu Jun 30 14:10:44 2022 +0600
 
     Rename main.asm to hello.asm
 ```
+> it`ll show detaled information about this commit
+```
+git show __it`s__hash_
+```
