@@ -115,6 +115,9 @@ git remote add origin https://github.com/AinazikS/Online-Recording-System.git
 git push -u origin
 ```
 ___
+## Pull
+> git pull берет и забирает изменения с удаленного сервера
+---
 ### Actions after renaming *master* branch
 ```
 git branch -m master main
