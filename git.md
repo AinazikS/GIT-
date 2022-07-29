@@ -89,3 +89,13 @@ git branch -u origin/main main
 git remote set-head origin -a
 ```
 ___
+# Steps
+
+```
+git add file1 file 2
+```
+git commit -m "Message1"
+```
+git add file3 file 4
+```
+git commit -m "Message2"
