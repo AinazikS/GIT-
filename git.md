@@ -99,3 +99,11 @@ git commit -m "Message1"
 git add file3 file 4
 ```
 git commit -m "Message2"
+
+```
+commit f70fdcef37c16fdf9f1e9dc239fe130d396aff0e    ------- HASH
+Author: airgedon <104425308+airgedon@users.noreply.github.com>
+Date:   Thu Jun 30 14:10:44 2022 +0600
+
+    Rename main.asm to hello.asm
+```
