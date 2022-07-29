@@ -7,9 +7,6 @@ modified(changes) -> staged(git add .) -> commited(git commit -m "Message")
 git init
 ```
 
-```
-git add .
-```
 > it`ll return changes to the last commit
 ```
 git restore main.asm
@@ -32,11 +29,19 @@ git log
 ```
 git status
 ```
-
+____
+```
+git add .
+```
 ```
 git commit -m "message is here"
 ```
-
+or  run this 1 command instead of this 2
+> -a... means add
+```
+git commit -am "message is here"
+```
+---
 ```
 git --help
 ```
