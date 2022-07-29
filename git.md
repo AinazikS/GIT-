@@ -11,7 +11,10 @@ git add .
 ```
 git rm --cached
 ```
-
+> to view logs
+```
+git log
+```
 ```
 git status
 ```
