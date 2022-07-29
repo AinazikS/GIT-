@@ -19,9 +19,6 @@ git diff
 ```
 git diff --staged
 ```
-```
-git rm --cached
-```
 > to view logs
 ```
 git log
@@ -45,7 +42,14 @@ git commit -am "message is here"
 ```
 git --help
 ```
-
+> mv - move, rm -remove
+```
+git mv | git rm
+```
+> How delete file in commit but in the directory
+```
+git rm --cached
+```
 >*.gitignore && readme.md*
 
 ```
