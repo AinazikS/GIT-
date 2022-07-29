@@ -10,7 +10,10 @@ git init
 ```
 git add .
 ```
-
+> it`ll return changes to the last commit
+```
+git restore main.asm
+```
 ```
 git rm --cached
 ```
