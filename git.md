@@ -67,25 +67,25 @@ git branch
 >*to **create** branch*
  
 ```
-git branch (name og the branch)        
+git branch (name of the branch)        
 ```
 
 >*to **delete** branch*
 
 ```
-git branch -D (name og the branch) 
+git branch -D (name of the branch) 
 ```
 >*to **rename** branch*
 ```
-git branch -M (name og the branch)    
+git branch -M (name of the branch)    
 ```
 >**switch between** *branches*
 ```
-git checkout (name og the branch)      
+git checkout (name of the branch)      
 ```
 >*switch between branches and the same time switch to that branch straightaway*
 ```
-git checkout -b (name og the branch)   
+git checkout -b (name of the branch)   
 ```
 >*to **join** each other (each branch)*
 ```
