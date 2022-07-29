@@ -110,7 +110,7 @@ ___
 ```
 git remote add origin https://github.com/AinazikS/Online-Recording-System.git
 ```
-
+если два разработчика работают над одним кодом, пытаются запушить код в одну ветвь
 ```
 git push -u origin
 ```
