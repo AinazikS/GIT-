@@ -117,6 +117,9 @@ git push -u origin
 ___
 ## Pull
 > git pull берет и забирает изменения с удаленного сервера
+```
+git pull origin main
+```
 ---
 ### Actions after renaming *master* branch
 ```
