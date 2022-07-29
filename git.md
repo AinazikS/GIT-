@@ -51,6 +51,14 @@ git mv | git rm
 git rm --cached
 ```
 >*.gitignore && readme.md*
+> in .gitignore file
+```
+__pycache__/
+*.py[cod]
+docker-compose.yml
+log/
+resources/products.json
+```
 
 ```
 git branch
