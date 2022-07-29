@@ -73,7 +73,7 @@ git branch (name of the branch)
 >*to **delete** branch*
 
 ```
-git branch -D (name of the branch) 
+git branch -d (name of the branch) 
 ```
 >*to **rename** branch*
 ```
