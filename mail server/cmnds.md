@@ -20,3 +20,12 @@ Please choose to use default admin password 1234567, randomly generate one (reco
 Delete usr/local/requiirements.txt
        usr/local/cyberpanel
 
+### To check the logs journalctl -f | grep postfix
+```
+journalctl -f | grep postfix
+```
+### To check if 25 port is blocked
+
+```
+telnet [domain] 25
+```
