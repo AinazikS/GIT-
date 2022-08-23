@@ -24,6 +24,15 @@ Delete usr/local/requiirements.txt
 ```
 journalctl -f | grep postfix
 ```
+```
+sudo service postfix start
+```
+```
+sudo service postfix stop
+```
+```
+sudo service postfix restart
+```
 ### To check if 25 port is blocked
 
 ```
