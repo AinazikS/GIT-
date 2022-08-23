@@ -42,6 +42,7 @@ telnet alt1.gmail-smtp-in.l.google.com 25
 
 ----
 [Connection timed out](https://talk.plesk.com/threads/postfix-smtp-connection-timed-out.354915/)
+[Postfix server only attempts to connect on (blocked) port 25, not 587 as set in config](https://serverfault.com/questions/1005178/postfix-server-only-attempts-to-connect-on-blocked-port-25-not-587-as-set-in)
 
 ```
 sudo service postfix start
