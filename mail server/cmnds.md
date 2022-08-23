@@ -24,6 +24,8 @@ Delete usr/local/requiirements.txt
 ```
 journalctl -f | grep postfix
 ```
+[Connection timed out](https://talk.plesk.com/threads/postfix-smtp-connection-timed-out.354915/)
+
 ```
 sudo service postfix start
 ```
