@@ -29,3 +29,12 @@ journalctl -f | grep postfix
 ```
 telnet [domain] 25
 ```
+```
+sudo ufw allow out 25
+```
+```
+sudo ufw allow 25
+```
+```
+sudo ufw reload
+```
