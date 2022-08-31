@@ -45,6 +45,7 @@ telnet alt1.gmail-smtp-in.l.google.com 25
 
 [Postfix server only attempts to connect on (blocked) port 25, not 587 as set in config](https://serverfault.com/questions/1005178/postfix-server-only-attempts-to-connect-on-blocked-port-25-not-587-as-set-in)
 
+[CyberPanel CLI](https://community.cyberpanel.net/t/cyberpanel-command-line-interface/30683)
 
 [Please stop recommending vultr, they won't unblock port 25 anymore.](https://github.com/LukeSmithxyz/emailwiz/issues/172)
 
