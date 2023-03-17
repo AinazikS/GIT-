@@ -13,3 +13,4 @@ docker push user/repository_name:tagname
 ```
 sudo docker pull user/repository_name:tagname
 ```
+> Deault tagname is :latest
