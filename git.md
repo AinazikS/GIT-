@@ -7,6 +7,12 @@ untracked(не отслеживаемый) -> modified(changes) -> staged(git ad
 git init
 ```
 
+> to clone specific branch 
+
+```
+git clone --single-branch --branch polls-docker __url__
+```
+
 > it`ll return changes to the last commit
 ```
 git restore main.asm
