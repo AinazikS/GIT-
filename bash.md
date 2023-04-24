@@ -46,3 +46,40 @@ case ${1,,} in
 		;;
 esac
 ```
+> array syntax in bash:
+
+```
+MY_LIST=(one two three four five)
+```
+```
+echo $MY_LIST
+```
+> output
+
+```
+one
+```
+> cause we specified like a simple variable
+
+> to specify like an array:
+
+
+```
+echo ${MY_LIST[@]}
+```
+> output
+
+```
+one two three four five
+```
+> to take certain item by index
+
+```
+echo ${MY_LIST[2]}
+```
+
+> output
+
+```
+three
+```
