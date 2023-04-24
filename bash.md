@@ -65,7 +65,7 @@ one
 
 
 ```
-echo ${MY_LIST[@]}
+echo $MY_LIST[@]
 ```
 > output
 
@@ -75,7 +75,7 @@ one two three four five
 > to take certain item by index
 
 ```
-echo ${MY_LIST[2]}
+echo $MY_LIST[2]
 ```
 
 > output
