@@ -83,3 +83,24 @@ echo $MY_LIST[2]
 ```
 three
 ```
+
+```
+for item in $MY_LIST[@]; do echo -n $item | wc -c; done
+```
+
+```sh
+#!/bin/bash
+
+
+showuptime(){
+	local up=$(uptime -p | cut -c4-)
+        local since=$(uptime -s)
+	cat << EOF
+-----
+This machine has been up for ${up}
+It has been running since ${since}
+-----
+EOF
+}
+showuptime
+```
