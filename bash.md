@@ -137,3 +137,30 @@ if [ $? = 1 ]; then
 	echo 'Someone unknown called the function!'
 fi
 ```
+---
+
+> AWK
+
+```
+ 1809  echo one two three > testfile.txt
+ 1810  cat testfile.txt
+ 1811  awk '{print $1}' testfile.txt
+ 1812  awk '{print $2}' testfile.txt
+ 1813  echo one,two,three > cvs.cvs
+ 1814  awk -F, '{print $1}' cvs.cvs
+ 1815  awk '{print $2}' cvs.cvs
+ 1816  echo "Just get this word: Hello" | awk '{print $1 }'
+ 1817  echo "Just get this word: Hello" | -F: awk '{print $1 }' | cut -c2-\n
+ 1822  echo "Just get this word: Hello" |  awk -F: '{print $2 }' | cut -c2-\n
+```
+
+> SED
+
+```
+sed `s - mode/substitude / word - that you`d like to replace / word -  that you`d like to replace with / g - globally` file.txt
+```
+> with backup
+
+```
+sed -i.ORIGINAL `s - mode/substitude / word - that you`d like to replace / word -  that you`d like to replace with / g - globally` file.txt
+```
