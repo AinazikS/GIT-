@@ -15,3 +15,16 @@ read LAST_NAME
 
 echo Hello $FIRST_NAME $LAST_NAME
 ```
+> fi - for EOF
+
+```sh
+#!/bin/bash
+
+if [ ${1,,} = deep-matrix ]; then
+	echo 'Hello, boss'
+elif [ ${1,,} = help ]; then
+	echo 'Just type your name'
+else
+	echo 'No name'
+fi
+```
