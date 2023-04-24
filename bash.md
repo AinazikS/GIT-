@@ -104,3 +104,12 @@ EOF
 }
 showuptime
 ```
+
+```sh
+#!/bin/bash
+
+showname(){
+	echo hello $1 (входной параметр)
+}
+showname Deep-Matrix
+```
