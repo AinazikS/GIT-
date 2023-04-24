@@ -31,7 +31,7 @@ fi
 
 > | - separator for multiple options
 
-```
+```bash
 #!/bin/bash
 
 case ${1,,} in
