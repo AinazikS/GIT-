@@ -113,3 +113,10 @@ showname(){
 }
 showname Deep-Matrix
 ```
+```
+if - fi
+case - esac
+```
+---
+
+> EXIT CODES
