@@ -2,7 +2,27 @@
 
 > Run terminal and then first, issue an update command-
 
+> OR
 
+```sh
+#!/bin/bash
+
+sudo apt update -y
+
+sudo apt-get -y  install build-essential
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/ubuntu/.bashrc
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+brew doctor
+
+brew install gofireflyio/aiac/aiac
+
+export OPENAI_API_KEY=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
+```
 
 ```
 sudo apt update
