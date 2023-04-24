@@ -28,3 +28,5 @@ else
 	echo 'No name'
 fi
 ```
+
+> | - separator for multiple options
