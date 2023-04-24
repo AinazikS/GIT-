@@ -30,3 +30,19 @@ fi
 ```
 
 > | - separator for multiple options
+
+```
+#!/bin/bash
+
+case ${1,,} in
+	deep-matr1x | admin)
+		echo 'Hello, boss'
+		;;
+	help)
+		echo "Just enter your username"
+		;;
+	*)
+		echo 'Unknown'
+		;;
+esac
+```
