@@ -15,7 +15,7 @@ read LAST_NAME
 
 echo Hello $FIRST_NAME $LAST_NAME
 ```
-> fi - for EOF
+> fi statement is the fundamental control statement that allows Shell to make decisions and execute statements conditionally.
 
 ```sh
 #!/bin/bash
