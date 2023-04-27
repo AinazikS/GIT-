@@ -23,7 +23,7 @@ brew doctor
 
 brew install gofireflyio/aiac/aiac
 
-export OPENAI_API_KEY=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
+export OPENAI_API_KEY=
 ```
 
 ```
@@ -61,7 +61,7 @@ brew install gofireflyio/aiac/aiac
 
 
 ```
-export OPENAI_API_KEY=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
+export OPENAI_API_KEY=
 ```
 ---
 
