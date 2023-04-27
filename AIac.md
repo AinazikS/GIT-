@@ -11,6 +11,8 @@ sudo apt update -y
 
 sudo apt-get -y  install build-essential
 
+sudo apt install -y curl
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/ubuntu/.bashrc
